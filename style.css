@@ -59,3 +59,76 @@ nav a{
     cursor: pointer;
     color: black;
 }
+
+/* Hero Section */
+
+.hero-container{
+    background: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding-top: 115.5px;
+    padding-bottom: 179.5px;
+    text-align: center;
+}
+
+.early-access{
+    background-color: white;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.early-access img{
+    height: 16px;
+    width: 16px;
+    align-self: center;
+}
+
+.head{
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+.head span{
+    color: #30B868;
+}
+
+.text{
+    color: white;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.btn1{
+    padding: 12.5px 16px;
+    background-color: transparent ;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.button .btn1:hover{
+    background-color: #dcdcdc1f;
+}
