@@ -132,3 +132,72 @@ nav a{
 .button .btn1:hover{
     background-color: #dcdcdc1f;
 }
+
+
+/* Notes Section */
+
+.notes-container h2{
+    font-size: 48px;
+    margin-bottom: 16p;
+}
+
+.notes-failures{
+    text-align: center;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.contents h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.contents{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+}
+
+.card-container h3{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.card-container p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    vertical-align: baseline;
+}
+
+.circle{
+    background-color:#F95555;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.circle img{
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+.card{
+    border-radius: 8px;
+    padding: 40px 24px;
+
+    box-shadow: 0 0 8px #00000010;
+}
