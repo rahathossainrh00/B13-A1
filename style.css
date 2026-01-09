@@ -201,3 +201,88 @@ nav a{
 
     box-shadow: 0 0 8px #00000010;
 }
+
+/* second brain section */
+
+.solution-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    align-items: center;
+    gap: 60px;
+}
+
+.line1{
+    font-size: 16px;
+    color: #30B868;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.solution-container h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.info{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.solution-container li{
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #001931;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 6px;
+}
+
+
+/* Call to action */
+
+.cta-section{
+    padding-bottom: 120px;
+}
+
+.cta{
+    width: 85%;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 80px 40px;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.cta-container h2{
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.cta-container p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.cta-container button{
+    margin-bottom: 16px;
+}
+
+.cta-container a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
