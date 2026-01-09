@@ -286,3 +286,56 @@ nav a{
     color: white;
 }
 
+
+/* footer */
+
+footer{
+    background-color: #001931;
+    width: 100%;
+    color: white;
+    align-content: center;
+}
+
+.footer-container{
+    padding: 120px 120px 30px;
+}
+
+.logo-links{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1001px;
+    padding-bottom: 80px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.logo-links img{
+    height: 60px;
+    width: 139px;
+}
+
+.footer-container hr{
+    color: #E5E7EB;
+    border: 0px;
+    border-top: 1px solid #2D3748;
+}
+
+.footer-container p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.footer-container .socials img{
+    height: 20px;
+    width: 20px;
+}
+.socials p{
+        padding-bottom: 16px;
+}
+.socials .logo{
+    display: flex;
+    gap: 16px;
+}
+
+
