@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-common:hover{
+    color: white;
+    background-color: #378056;
+}
+
+.btn-common{
+    padding: 12.5px 16px;
+    background-color: #469165;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+
+/* Navigation Bar */
+
+nav{
+    display: flex;
+    width: 85%;
+    max-width: 1360px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    font-weight: 500;
+    font: 16px;
+}
+nav button a{
+    text-decoration: none;
+    color: white;
+}
+
+nav button a:hover{
+    text-decoration: none;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
